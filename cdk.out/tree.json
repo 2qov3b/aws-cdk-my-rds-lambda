@@ -1,0 +1,33 @@
+{
+  "version": "tree-0.1",
+  "tree": {
+    "id": "App",
+    "path": "",
+    "children": {
+      "Tree": {
+        "id": "Tree",
+        "path": "Tree"
+      },
+      "AwsCdkMyRdsLambdaStack": {
+        "id": "AwsCdkMyRdsLambdaStack",
+        "path": "AwsCdkMyRdsLambdaStack",
+        "children": {
+          "CDKMetadata": {
+            "id": "CDKMetadata",
+            "path": "AwsCdkMyRdsLambdaStack/CDKMetadata",
+            "children": {
+              "Default": {
+                "id": "Default",
+                "path": "AwsCdkMyRdsLambdaStack/CDKMetadata/Default"
+              },
+              "Condition": {
+                "id": "Condition",
+                "path": "AwsCdkMyRdsLambdaStack/CDKMetadata/Condition"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
