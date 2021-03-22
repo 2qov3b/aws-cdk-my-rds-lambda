@@ -51,9 +51,27 @@ found 0 vulnerabilities
 ```bash
 $ cd lambda-functions
 $ npm init -y
+$ npm install data-api-client uuid
 ```
 
 ## Add index.ts in lambda-functions
+
+## Process of provisioning initial resources
+```bash
+$ cdk bootstrap --profile devken
+ ⏳  Bootstrapping environment aws://xxxxxx/ap-northeast-1...
+CDKToolkit: creating CloudFormation changeset...
+[██████████████████████████████████████████████████████████] (3/3)
+
+
+
+ ✅  Environment aws://xxxxxx/ap-northeast-1 bootstrapped.
+```
+## Deploy stack
+```bash
+$ npm run build && cdk deploy --profile devken
+```
+
 
 ## Useful commands
 
